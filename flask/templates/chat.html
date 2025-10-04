@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>クイズチャット</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .chat-message {
+      white-space: pre-wrap;
+      margin: 10px 0;
+    }
+    #question-area {
+      margin: 20px 0;
+      padding: 15px;
+      border: 2px solid #007BFF;
+      border-radius: 10px;
+      background: #f9f9f9;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .btn-group {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column; /* ボタンを縦に並べる */
+      gap: 12px;
+    }
+    .option-btn {
+      padding: 15px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #007BFF;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s;
+      text-align: left;
+    }
+    .option-btn:hover {
+      background-color: #0056b3;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+  <script src="/static/script.js" defer></script>
+</head>
+<body>
+  <h1>クイズチャット</h1>
+
+  <!-- 解説や履歴を残す場所 -->
+  <div id="chat-box"></div>
+
+  <!-- 質問を一問ずつ表示する場所 -->
+  <div id="question-area"></div>
+
+  <!-- 選択肢ボタンを動的に入れる場所 -->
+  <div id="option-buttons" class="btn-group"></div>
+  <div id="explanation-area"></div>
+
+  <!-- ローディング表示 -->
+  <div id="loading" class="hidden">ローディング中...</div>
+
+  <!-- next / end ボタン -->
+  <div id="control-buttons" class="btn-group" style="margin-top:20px;">
+    <button id="next" class="option-btn" style="background-color:#28a745;">next</button>
+    <button id="end" class="option-btn" style="background-color:#dc3545;">end</button>
+  </div>
+
+  <!-- サーバーから最初の問題を受け取る -->
+  <script>
+    window.first_question = `{{ first_question|safe }}`;
+  </script>
+</body>
+</html>
