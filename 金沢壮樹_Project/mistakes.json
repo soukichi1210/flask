@@ -1,0 +1,640 @@
+[
+  {
+    "id": "1a0c29a2-89be-4926-8c9e-2ee776878ef2",
+    "question_number": 1,
+    "question_text": "OSI参照モデルの第3層は何を担当していますか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "物理層"
+      },
+      {
+        "number": 2,
+        "text": "データリンク層"
+      },
+      {
+        "number": 3,
+        "text": "ネットワーク層"
+      },
+      {
+        "number": 4,
+        "text": "トランスポート層"
+      },
+      {
+        "number": 5,
+        "text": "アプリケーション層"
+      }
+    ],
+    "correct_answer": 3,
+    "explanation": "OSI参照モデルの第3層はネットワーク層です。この層はデータのルーティングや転送を担当しており、異なるネットワーク間の通信を可能にします。第2層のデータリンク層は、直接隣接する機器間の通信を担当しています。"
+  },
+  {
+    "id": "bc7619ca-319b-4b1b-b1ba-66b445b8bb67",
+    "question_number": 2,
+    "question_text": "次のうち、IPアドレスに含まれない部分はどれですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "ネットワーク部分"
+      },
+      {
+        "number": 2,
+        "text": "ホスト部分"
+      },
+      {
+        "number": 3,
+        "text": "ゲートウェイ部分"
+      },
+      {
+        "number": 4,
+        "text": "サブネットマスク"
+      },
+      {
+        "number": 5,
+        "text": "ネットワークプロトコル"
+      }
+    ],
+    "correct_answer": 3,
+    "explanation": "IPアドレスは主にネットワーク部分とホスト部分から構成されています。サブネットマスクはネットワークの範囲を定義するために使用されます。ゲートウェイ部分は存在せず、IPアドレス自体には含まれません。"
+  },
+  {
+    "id": "56f70af6-e8cd-4ae2-847e-b1ce699b1a55",
+    "question_number": 2,
+    "question_text": "プログラミングにおける変数のスコープに関して、一般的にどのように分類されますか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "グローバル変数とローカル変数"
+      },
+      {
+        "number": 2,
+        "text": "静的変数と動的変数"
+      },
+      {
+        "number": 3,
+        "text": "数値変数と文字列変数"
+      },
+      {
+        "number": 4,
+        "text": "配列変数とオブジェクト変数"
+      },
+      {
+        "number": 5,
+        "text": "公開変数と非公開変数"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "プログラミングにおける変数のスコープは主に「グローバル変数」と「ローカル変数」に分類されます。グローバル変数はプログラム全体で使用できるのに対して、ローカル変数は特定の関数内でのみ有効です。選択肢5の公開変数と非公開変数は、変数の可視性に関するものであり、スコープの分類とは異なります。"
+  },
+  {
+    "id": "1eb59875-cee8-4cdb-8d3a-cc7c25e0e711",
+    "question_number": 1,
+    "question_text": "ネルソン・マンデラが南アフリカの首相に選ばれた年は何年か？",
+    "options": [
+      {
+        "number": 1,
+        "text": "1990年"
+      },
+      {
+        "number": 2,
+        "text": "1991年"
+      },
+      {
+        "number": 3,
+        "text": "1994年"
+      },
+      {
+        "number": 4,
+        "text": "1996年"
+      },
+      {
+        "number": 5,
+        "text": "1999年"
+      }
+    ],
+    "correct_answer": 3,
+    "explanation": "ネルソン・マンデラは、1994年に南アフリカの初代黒人大統領に就任しました。これは南アフリカにおける初の全人種参加選挙の結果であり、この選挙が行われたのは1994年なので、その年が正解です。あなたが選んだ1991年は、彼が囚人として解放された後の年ですが、首相にはなっていません。"
+  },
+  {
+    "id": "5a3528f6-c55b-4644-a4c6-fc9e1e2982d7",
+    "question_number": 2,
+    "question_text": "光合成において、植物が二酸化炭素を吸収するのはどの部分か？",
+    "options": [
+      {
+        "number": 1,
+        "text": "根"
+      },
+      {
+        "number": 2,
+        "text": "茎"
+      },
+      {
+        "number": 3,
+        "text": "葉"
+      },
+      {
+        "number": 4,
+        "text": "花"
+      },
+      {
+        "number": 5,
+        "text": "実"
+      }
+    ],
+    "correct_answer": 3,
+    "explanation": "光合成は主に葉の中で行われます。葉は、多くの光合成色素を含んでおり、光エネルギーを吸収し、二酸化炭素と水からグルコースと酸素を生成します。花は繁殖に特化した構造であり、光合成の役割は果たしていません。正解は葉の部分です。"
+  },
+  {
+    "id": "a0cb7e42-f73c-4f6d-b362-8163d1346462",
+    "question_number": 3,
+    "question_text": "次の元素の中で、最も軽い元素はどれですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "水素"
+      },
+      {
+        "number": 2,
+        "text": "ヘリウム"
+      },
+      {
+        "number": 3,
+        "text": "リチウム"
+      },
+      {
+        "number": 4,
+        "text": "ベリリウム"
+      },
+      {
+        "number": 5,
+        "text": "ホウ素"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "最も軽い元素は水素です。水素の原子番号は1で、最も単純かつ軽量の元素です。他の選択肢であるヘリウムやリチウムは水素よりも重い元素です。水素は常温常圧で気体として存在し、宇宙で最も豊富に存在する元素の1つです。正解は水素です。"
+  },
+  {
+    "id": "f20439d4-edc3-49dc-9281-6102739b9c8c",
+    "question_number": 5,
+    "question_text": "地球の大気中で最も多く含まれている気体は何ですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "酸素"
+      },
+      {
+        "number": 2,
+        "text": "二酸化炭素"
+      },
+      {
+        "number": 3,
+        "text": "窒素"
+      },
+      {
+        "number": 4,
+        "text": "水蒸気"
+      },
+      {
+        "number": 5,
+        "text": "アルゴン"
+      }
+    ],
+    "correct_answer": 3,
+    "explanation": "地球の大気中で最も多く含まれている気体は窒素です。窒素は大気の約78%を占めており、次いで酸素が約21%を占めています。二酸化炭素は比較的少量であり、約0.04%程度含まれています。したがって、正解は窒素です。"
+  },
+  {
+    "id": "240d9ece-470c-443e-9553-2db6ae9ad371",
+    "question_number": 3,
+    "question_text": "次のうち、光の速さは約何km/sですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "300,000 km/s"
+      },
+      {
+        "number": 2,
+        "text": "150,000 km/s"
+      },
+      {
+        "number": 3,
+        "text": "500,000 km/s"
+      },
+      {
+        "number": 4,
+        "text": "1,000,000 km/s"
+      },
+      {
+        "number": 5,
+        "text": "750,000 km/s"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "光の速さは約300,000 km/sです。この速度は真空中の光の速さを指しており、宇宙の物理学や天文学において非常に重要な定数です。光の速さは物理学の多くの法則に影響を与えています。"
+  },
+  {
+    "id": "84523310-d7e2-43be-bf5e-205a3fd822cb",
+    "question_number": 1,
+    "question_text": "次のうち、コンピュータの基本構成要素として正しいものはどれですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "メモリ"
+      },
+      {
+        "number": 2,
+        "text": "ディスプレイ"
+      },
+      {
+        "number": 3,
+        "text": "周辺機器"
+      },
+      {
+        "number": 4,
+        "text": "電源"
+      },
+      {
+        "number": 5,
+        "text": "ストレージ"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "電源はコンピュータに電力を供給する重要な部品ですが、基本構成要素とは言えません。コンピュータの基本構成要素には、中央処理装置（CPU）、メモリ、ストレージなどが含まれます。メモリは処理を行うためのデータを一時的に保存する役割を担います。"
+  },
+  {
+    "id": "5e3b3c64-720b-4718-b210-ff998c901397",
+    "question_number": 3,
+    "question_text": "面接時に気をつけるべき態度はどれでしょうか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "背筋を伸ばして座る"
+      },
+      {
+        "number": 2,
+        "text": "面接官の目を見ずに話す"
+      },
+      {
+        "number": 3,
+        "text": "自分の話ばかりする"
+      },
+      {
+        "number": 4,
+        "text": "言い訳を多くする"
+      },
+      {
+        "number": 5,
+        "text": "あまり笑わない"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "面接時には、背筋を伸ばして座り、しっかりと面接官と目を合わせることが大切です。これにより、自信がある印象を与え、円滑なコミュニケーションに繋がります。笑顔も重要で、相手に良い印象を与えることができます。"
+  },
+  {
+    "id": "2dd99281-5002-4f46-a8fc-641dedec88de",
+    "question_number": 4,
+    "question_text": "自己PRで強調するべき点は何でしょうか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "他の人よりも優れた成績"
+      },
+      {
+        "number": 2,
+        "text": "経験したアルバイトの内容"
+      },
+      {
+        "number": 3,
+        "text": "自分の性格"
+      },
+      {
+        "number": 4,
+        "text": "結果を出した具体的なエピソード"
+      },
+      {
+        "number": 5,
+        "text": "業界の知識"
+      }
+    ],
+    "correct_answer": 4,
+    "explanation": "自己PRでは、自分の性格も大切ですが、より強調するべきは具体的なエピソードです。特に、どのような結果を出したのかを示すエピソードは、応募者の実績や価値を明確に伝えることができます。この部分をしっかり伝えることで、面接官に印象づけることができます。"
+  },
+  {
+    "id": "adf57612-7daf-4e9f-a5d2-2a8f8f542ee6",
+    "question_number": 5,
+    "question_text": "就職活動で使う「ネットワーキング」とは何を指すでしょうか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "求人情報サイトの利用"
+      },
+      {
+        "number": 2,
+        "text": "同業者との人脈構築"
+      },
+      {
+        "number": 3,
+        "text": "自己分析の実施"
+      },
+      {
+        "number": 4,
+        "text": "インターンシップ参加"
+      },
+      {
+        "number": 5,
+        "text": "履歴書の作成"
+      }
+    ],
+    "correct_answer": 2,
+    "explanation": "ネットワーキングとは、同業者や専門家との人脈を構築することを指します。これは、情報交換や仕事の紹介、キャリアに関するアドバイスなどに役立ちます。求人情報サイトの利用は就職活動の一環ですが、ネットワーキングの本質とは異なります。"
+  },
+  {
+    "id": "7be276c8-a1dd-4d79-bf60-2c9093aad7a2",
+    "question_number": 1,
+    "question_text": "次の文を正しく完成させるために、適切な単語を選んでください。「I usually ___ to school by bus.」",
+    "options": [
+      {
+        "number": 1,
+        "text": "walk"
+      },
+      {
+        "number": 2,
+        "text": "goes"
+      },
+      {
+        "number": 3,
+        "text": "going"
+      },
+      {
+        "number": 4,
+        "text": "gone"
+      },
+      {
+        "number": 5,
+        "text": "go"
+      }
+    ],
+    "correct_answer": 5,
+    "explanation": "「I usually ___ to school by bus.」という文では、主語「I」に対して動詞は原形（go）が必要です。選択肢3の「going」は現在分詞であり、文の文法に合いません。「go」を使って「I usually go to school by bus.」が正しい文になります。"
+  },
+  {
+    "id": "511f1438-33d1-4456-a870-dfd574feeeed",
+    "question_number": 2,
+    "question_text": "次のコードの出力は何ですか？\n\n```python\nx = 10\ny = 5\nprint(x // y)\n```",
+    "options": [
+      {
+        "number": 1,
+        "text": "2"
+      },
+      {
+        "number": 2,
+        "text": "3"
+      },
+      {
+        "number": 3,
+        "text": "5"
+      },
+      {
+        "number": 4,
+        "text": "10"
+      },
+      {
+        "number": 5,
+        "text": "2.0"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "`//` 演算子は整数の除算を行い、その結果を整数として返します。`x = 10` と `y = 5` の場合、`10 // 5` は `2` となります。選択肢の中で正しいものは1番目です。"
+  },
+  {
+    "id": "d9d38a0c-e33a-456f-8295-7002611b944a",
+    "question_number": 3,
+    "question_text": "次のコードの出力は何ですか？\n\n```python\nfor i in range(5):\n    print(i)\n```",
+    "options": [
+      {
+        "number": 1,
+        "text": "0 1 2 3 4"
+      },
+      {
+        "number": 2,
+        "text": "1 2 3 4 5"
+      },
+      {
+        "number": 3,
+        "text": "0 1 2 3 4 5"
+      },
+      {
+        "number": 4,
+        "text": "0 1 2 3 4 5 6"
+      },
+      {
+        "number": 5,
+        "text": "5"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "Pythonの`range(5)`は、0から始まり、指定された数より1小さい数までの整数を生成します。つまり、`range(5)` は `0, 1, 2, 3, 4` の5つの数を生成します。したがって、出力は `0 1 2 3 4` となり、正解は1番目です。"
+  },
+  {
+    "id": "73f5c8af-3b54-49cf-8130-f65b589e3f9d",
+    "question_number": 4,
+    "question_text": "次のコードの出力は何ですか？\n\n```python\nwords = ['apple', 'banana', 'cherry']\nprint(', '.join(words))\n```",
+    "options": [
+      {
+        "number": 1,
+        "text": "apple, banana, cherry"
+      },
+      {
+        "number": 2,
+        "text": "'apple', 'banana', 'cherry'"
+      },
+      {
+        "number": 3,
+        "text": "['apple', 'banana', 'cherry']"
+      },
+      {
+        "number": 4,
+        "text": "apple banana cherry"
+      },
+      {
+        "number": 5,
+        "text": "None"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "メソッド`join`を使用すると、リスト内の要素を指定した区切り文字で結合することができます。この場合、`, `（カンマと空白）で結合され、出力は `apple, banana, cherry` となります。正解は1番目です。"
+  },
+  {
+    "id": "d94fea1d-be1a-457c-98cf-af45002c9edc",
+    "question_number": 5,
+    "question_text": "次のコードの出力は何ですか？\n\n```python\nprint(len('Hello, World!'))\n```",
+    "options": [
+      {
+        "number": 1,
+        "text": "13"
+      },
+      {
+        "number": 2,
+        "text": "12"
+      },
+      {
+        "number": 3,
+        "text": "11"
+      },
+      {
+        "number": 4,
+        "text": "14"
+      },
+      {
+        "number": 5,
+        "text": "15"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "Pythonの`len()`関数は、文字列やリストなどの長さを返します。`'Hello, World!'` という文字列は合計13文字（`H`, `e`, `l`, `l`, `o`, `,`, ` `, `W`, `o`, `r`, `l`, `d`, `!`）からなります。したがって、正解は1番目の `13` です。"
+  },
+  {
+    "id": "606997d7-1d94-4b62-b570-74d03d68f788",
+    "question_number": 3,
+    "question_text": "Pythonにおけるループ処理で、指定した範囲の整数を順に処理するために使う関数は何ですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "range()"
+      },
+      {
+        "number": 2,
+        "text": "loop()"
+      },
+      {
+        "number": 3,
+        "text": "iterate()"
+      },
+      {
+        "number": 4,
+        "text": "for_each()"
+      },
+      {
+        "number": 5,
+        "text": "repeat()"
+      }
+    ],
+    "correct_answer": 1,
+    "explanation": "Pythonで指定した範囲の整数を順に処理するために使う関数は`range()`です。この関数を使うことで、例えば、`for i in range(5):`と記述すると、0から4までの整数が順に`i`に代入され、ループが実行されます。選択肢の`for_each()`はPythonに特有の関数ではありません。正しくは`range()`を使用することです。"
+  },
+  {
+    "id": "1f9401b1-0741-48ec-80f8-84bc0dc705bc",
+    "question_number": 1,
+    "question_text": "次の元素の中で、最も軽い元素はどれですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "酸素"
+      },
+      {
+        "number": 2,
+        "text": "水素"
+      },
+      {
+        "number": 3,
+        "text": "ヘリウム"
+      },
+      {
+        "number": 4,
+        "text": "炭素"
+      },
+      {
+        "number": 5,
+        "text": "窒素"
+      }
+    ],
+    "correct_answer": 2,
+    "explanation": "正解は水素です。水素は原子番号1の元素で、最も軽い元素です。ヘリウムは原子番号2で、水素よりも重くなってしまいます。"
+  },
+  {
+    "id": "587a47cd-851a-4fee-8213-19e83f570c46",
+    "question_number": 2,
+    "question_text": "太陽系の中で最も大きな惑星はどれですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "地球"
+      },
+      {
+        "number": 2,
+        "text": "火星"
+      },
+      {
+        "number": 3,
+        "text": "木星"
+      },
+      {
+        "number": 4,
+        "text": "土星"
+      },
+      {
+        "number": 5,
+        "text": "金星"
+      }
+    ],
+    "correct_answer": 3,
+    "explanation": "正解は木星です。木星は太陽系の中で最大の惑星で、地球の約11倍の直径を持っています。地球は木星よりも小さい惑星です。"
+  },
+  {
+    "id": "b6dde3c5-20a8-443f-8c63-7039dd4b204e",
+    "question_number": 1,
+    "question_text": "以下の文の中で、正しい文法を持つ文はどれですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "He go to the store every day."
+      },
+      {
+        "number": 2,
+        "text": "She don't like apples."
+      },
+      {
+        "number": 3,
+        "text": "They plays football on Sunday."
+      },
+      {
+        "number": 4,
+        "text": "I am reading a book."
+      },
+      {
+        "number": 5,
+        "text": "You was happy yesterday."
+      }
+    ],
+    "correct_answer": 4,
+    "explanation": "「He go to the store every day.」は文法的に誤りです。主語「He」は三人称単数なので、動詞「go」に適切な形を加え、「He goes」とすべきです。正しい文は「I am reading a book.」です。"
+  },
+  {
+    "id": "36e4f0e0-1872-4a56-abb2-b17035bf8d4e",
+    "question_number": 2,
+    "question_text": "次のうち、過去形が正しい文はどれですか？",
+    "options": [
+      {
+        "number": 1,
+        "text": "She eat breakfast at 7 a.m."
+      },
+      {
+        "number": 2,
+        "text": "They played football yesterday."
+      },
+      {
+        "number": 3,
+        "text": "I goes to school last year."
+      },
+      {
+        "number": 4,
+        "text": "He see a movie last weekend."
+      },
+      {
+        "number": 5,
+        "text": "You was there too."
+      }
+    ],
+    "correct_answer": 2,
+    "explanation": "「She eat breakfast at 7 a.m.」は過去形ではなく現在形の文です。過去のことを述べる場合は、正しく「She ate breakfast at 7 a.m.」になるべきです。正しい文は「They played football yesterday.」で、動詞 'played' は 'play' の過去形です。"
+  }
+]
